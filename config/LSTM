@@ -1,0 +1,18 @@
+[DEFAULT]
+data_path = /media/jacksong/Data1/new_ERCOT/ERCOT_Data_Final
+name_csv = Hot_Encoded_Data_Final_DF.csv
+model_path = /media/jacksong/Data1/new_ERCOT/electricity_price_prediction/core/Saved_Models
+model_type = LSTM_Model 
+exp_number = 8
+number_epochs = 500
+confidence = 0.80
+test_size = 0.2262719
+validate_size = 0.19989
+random_state = 42
+batch_size = 64
+loss_function = MSELoss
+seq_dim = 31
+hidden_dim = 64
+layer_dim = 2
+output_dim = 1
+accuracy_range = 0.2
